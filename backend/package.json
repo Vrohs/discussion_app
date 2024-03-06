@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for discussion_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vrohs/discussion_app.git"
+  },
+  "author": "Vivek Rohtasvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vrohs/discussion_app/issues"
+  },
+  "homepage": "https://github.com/Vrohs/discussion_app#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  }
+}
